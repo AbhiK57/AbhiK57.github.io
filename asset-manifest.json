@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.154a70ad.css",
-    "main.js": "/static/js/main.033664eb.js",
+    "main.css": "/static/css/main.03195661.css",
+    "main.js": "/static/js/main.982b4c10.js",
     "static/media/Helvetica-Bold.ttf": "/static/media/Helvetica-Bold.ed57aca7292971d8548c.ttf",
     "static/media/subwaycar1.png": "/static/media/subwaycar1.0d3c98d907aebf52aa67.png",
     "index.html": "/index.html",
-    "main.154a70ad.css.map": "/static/css/main.154a70ad.css.map",
-    "main.033664eb.js.map": "/static/js/main.033664eb.js.map"
+    "main.03195661.css.map": "/static/css/main.03195661.css.map",
+    "main.982b4c10.js.map": "/static/js/main.982b4c10.js.map"
   },
   "entrypoints": [
-    "static/css/main.154a70ad.css",
-    "static/js/main.033664eb.js"
+    "static/css/main.03195661.css",
+    "static/js/main.982b4c10.js"
   ]
 }
