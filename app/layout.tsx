@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import Navbar from './Navbar';
 
 export const metadata: Metadata = {
-  title: 'Software Engineer Portfolio',
-  description: 'A modern portfolio for a software engineer.',
+  title: 'Abhinav Khanduja',
+  description: 'Abhinav Khanduja\'s Website',
 };
 
 export default function RootLayout({
