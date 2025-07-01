@@ -68,7 +68,7 @@ const App = () => {
             transition={pageTransition}
             className="w-full h-full" 
           >
-            <BlueBox onNavigate={handleShowProjects}>
+            <BlueBox onNavigate={handleShowProjects} descriptionText={<>Hey there, this website is currently under construction. <br /> As of July 1 I am actively working on it, and I'll have it ready soon!</>}>
               <TypingAnimation text="Abhinav Khanduja" />
             </BlueBox>
           </motion.div>

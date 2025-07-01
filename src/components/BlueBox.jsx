@@ -11,21 +11,23 @@ const circleVariants = {
   }
 };
 
-const BlueBox = ({ children, onNavigate }) => {
+const BlueBox = ({ children, onNavigate, descriptionText }) => {
   // State to control the animation variant
   const [controls, setControls] = useState("hidden");
 
-  // Effect to trigger animation after mount
   useEffect(() => {
-    // Set controls to 'visible' shortly after mount
-    // No delay needed usually, but can add setTimeout if required
     setControls("visible");
-  }, []); // Empty dependency array ensures this runs only once on mount
+  }, []); 
 
   return (
     <div className="w-full bg-black h-screen relative overflow-hidden">
       <div className="absolute top-4 left-4 flex flex-col gap-4">
-        {children}
+        {children} {/*Where my name pops up */}
+        {descriptionText && ( // <--- Conditionally render the description text
+          <p className="text-white text-lg mt-2 mb-2"> 
+            {descriptionText}
+          </p>
+        )}
         <button
           onClick={onNavigate}
           className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition-colors duration-300 max-w-max"
