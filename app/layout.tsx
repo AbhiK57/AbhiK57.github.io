@@ -1,8 +1,10 @@
+import './globals.css';
 import type { Metadata } from 'next';
+import Navbar from './Navbar';
 
 export const metadata: Metadata = {
-  title: 'Next.js on GitHub Pages',
-  description: 'Deploy your static Next.js site to GitHub Pages.',
+  title: 'Software Engineer Portfolio',
+  description: 'A modern portfolio for a software engineer.',
 };
 
 export default function RootLayout({
@@ -12,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-white text-gray-900 dark:bg-darkblue dark:text-white min-h-screen">
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
