@@ -13,7 +13,7 @@ const Header = () => {
             <div className="w-8 h-8 bg-gray-700 rounded-md flex items-center justify-center">
               <Code className="w-5 h-5 text-teal-400" />
             </div>
-            <span className="text-xl font-bold ${theme === 'dark' ? text-white : text-black">Abhinav Khanduja</span>
+            <span className="text-xl font-bold ${theme === 'dark' ? text-white : text-black}">Abhinav Khanduja</span>
           </a>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
