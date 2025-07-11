@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Rss, Code, BookOpen, GitBranch, User, Sun, Moon, Github } from 'lucide-react';
 import { ThemeContext } from '../contexts/ThemeContext';
+import resumePdf from '../assets/AbhiK_UIUC_CS26.pdf';
 
 const Header = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -18,7 +19,7 @@ const Header = () => {
         </div>
         <nav className="hidden md:flex items-center space-x-6">
           <a href="https://www.linkedin.com/in/abhi-khanduja/" className="hover:text-teal-400 transition-colors duration-200 flex items-center space-x-2"><Rss size={18} /><span>Linkedin</span></a>
-          <a href="#" className="hover:text-teal-400 transition-colors duration-200 flex items-center space-x-2"><BookOpen size={18} /><span>Resume</span></a>
+          <a href={resumePdf} className="hover:text-teal-400 transition-colors duration-200 flex items-center space-x-2"><BookOpen size={18} /><span>Resume</span></a>
           <a href="#" className="hover:text-teal-400 transition-colors duration-200 flex items-center space-x-2"><GitBranch size={18} /><span>Projects</span></a>
           <a href="#" className="hover:text-teal-400 transition-colors duration-200 flex items-center space-x-2"><User size={18} /><span>About</span></a>
         </nav>

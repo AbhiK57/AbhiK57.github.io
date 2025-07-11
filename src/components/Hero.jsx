@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="md:w-2/3">
           <h1 className={`text-4xl sm:text-5xl font-bold leading-tight`}><TypingAnimation text="Hey, I'm Abhi!" /></h1>
           <p className={`mt-4 text-lg ${theme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>
-            I'm a rising senior at the University of Illinois, and an aspiring Software Engineer. <br></br> As of July 2, this website is still under construction, but I am actively working on it!
+            I'm a rising senior at the University of Illinois, and an aspiring Software Engineer. <br></br> As of July 11, this website is still under construction, but I am actively working on it!
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
           </div>
